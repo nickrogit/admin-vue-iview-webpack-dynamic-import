@@ -8,5 +8,5 @@ import usersbirthday from './usersbirthday'
 app(Mock, qs)
 // 用户管理
 users(Mock, qs)
-// 员工生日管理
+// 用户生日管理
  usersbirthday(Mock, qs)

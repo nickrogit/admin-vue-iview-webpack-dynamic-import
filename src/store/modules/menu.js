@@ -18,11 +18,11 @@ let menuData = [
     name: '主页',
     path: '/'
   }, {
-    name: '员工生日管理',
+    name: '用户生日管理',
     path: '/birthManage',
     children: [
       {
-        name: '员工列表',
+        name: '用户列表',
         path: '/birthManage/usersBirthday'
       },
       {

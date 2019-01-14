@@ -9,10 +9,10 @@
   <br>
   <Card>
     <div slot="title">
-      <Icon type="ios-list-outline"></Icon> 员工列表
+      <Icon type="ios-list-outline"></Icon> 用户列表
     </div>
     <div slot="extra">
-      <a href="#" @click.prevent="handleCreate"> 添加员工 </a>
+      <a href="#" @click.prevent="handleCreate"> 添加用户 </a>
     </div>
     <Table border :loading="loading.list" :columns="columns" :data="data"></Table>
     <br>

@@ -32,7 +32,7 @@ export default(Mock, qs) => {
             path: '/birthManage/users'
           },
           {
-            name: '员工生日管理',
+            name: '用户生日管理',
             path: '/birthManage/usersBirthday'
           },
           {
