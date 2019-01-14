@@ -2,7 +2,7 @@
 <div id="com-header">
   <div class="logo-info">
     <img class="logo" src="../../../assets/logo.png">
-    <p class="name">佳兆业文体旅游集团<br>人事后台管理系统</p>
+    <p class="name">adminDemo<br/>by vue</p>
   </div>
   <!-- .logo-info -->
   <div class="login-info">
