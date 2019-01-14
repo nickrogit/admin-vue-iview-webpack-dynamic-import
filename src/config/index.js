@@ -9,10 +9,10 @@ switch (process.env.NODE_ENV) {
     host = 'https://api.r.xx.com'
     break
   case 'testing':
-    host = 'http://172.29.8.45:8060'
+    host = 'http://localhost:8090'
     break
   default:
-    host = 'http://192.168.37.74:8080/'
+    host = 'http://localhost:8090'
 }
 
 export default {
