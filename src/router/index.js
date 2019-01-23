@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import routes from '@/router/routes'
+import store from '@/store'
 
 Vue.use(Router)
 
@@ -22,6 +23,7 @@ router.beforeEach((to, from, next) => {
     next({path: '/login'})
   } else {
     next()
+    store.commit('MENU_ON', to.path) // 选中菜单效果
   }
 })
 

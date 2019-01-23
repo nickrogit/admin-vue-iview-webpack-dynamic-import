@@ -1,4 +1,5 @@
 import router from '@/router'
+import menuData from '@/utils/menuData'
 /* import {getMenuList} from '@/services/app' */
 
 const state = {
@@ -13,7 +14,7 @@ const getters = {
   getMenuOpened: state => state.menuOpened
 }
 
-let menuData = [
+/*let menuData = [
   {
     name: '主页',
     path: '/'
@@ -31,7 +32,7 @@ let menuData = [
       }
     ]
   }
-]
+]*/
 
 const mutations = {
   // 获取菜单
@@ -41,6 +42,15 @@ const mutations = {
   },
   // 激活菜单
   MENU_SELECT: (state, data) => {
+    const open = `/${data.split('/')[1]}`
+    router.push(data) // 路由跳转
+    state.menuActive = data // 激活菜单
+    state.menuOpened = open // 展开菜单
+    localStorage.setItem('menuActive', data)
+    localStorage.setItem('menuOpened', open)
+  },
+  // 跳由跳转后 改变菜单选中状态 （未使用MENU_SELECT时，router/index.js设置）
+  MENU_ON: (state, data) => {
     const open = `/${data.split('/')[1]}`
     router.push(data) // 路由跳转
     state.menuActive = data // 激活菜单
@@ -60,7 +70,7 @@ const mutations = {
 const actions = {
   // 获取菜单
   handleMenu: ({commit}) => {
-    commit('MENU', menuData)
+    commit('MENU', menuData.menuData)
     router.push('/') // 路由跳转首页
 
     /* getMenuList().then(res => {
