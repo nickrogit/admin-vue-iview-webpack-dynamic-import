@@ -52,7 +52,6 @@ const mutations = {
   // 跳由跳转后 改变菜单选中状态 （未使用MENU_SELECT时，router/index.js设置）
   MENU_ON: (state, data) => {
     const open = `/${data.split('/')[1]}`
-    router.push(data) // 路由跳转
     state.menuActive = data // 激活菜单
     state.menuOpened = open // 展开菜单
     localStorage.setItem('menuActive', data)
