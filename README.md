@@ -210,3 +210,8 @@ npm run release
 # 构建最小生产
 npm run build
 ```
+
+## 赞赏
+　　　　　　　　　　　　☺ 赞赏一杯咖啡 ♨
+
+![赞赏](imgs/pay.png)
