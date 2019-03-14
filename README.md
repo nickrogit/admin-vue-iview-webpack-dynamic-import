@@ -214,4 +214,4 @@ npm run build
 ## 赞赏
 　　　　　　　　　　　　☺ 赞赏一杯咖啡 ♨
 
-![赞赏](imgs/pay.png)
+![赞赏](https://nickrogit.github.io/image/pay.png)
