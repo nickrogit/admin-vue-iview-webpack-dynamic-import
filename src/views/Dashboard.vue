@@ -1,7 +1,7 @@
 <template>
 <div id="dashboard">
   <div class="home">
-    欢迎使用<br/>佳兆业文体旅游集团人事后台管理系统
+    欢迎使用<br/>vue后台管理系统
   </div>
 </div>
 </template>

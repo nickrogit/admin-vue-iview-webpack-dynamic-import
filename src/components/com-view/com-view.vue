@@ -32,7 +32,7 @@
                 :on-success="handleSuccess"
                 :on-error="handleError"
                 action="//jsonplaceholder.typicode.com/posts/">
-          <Button type="ghost" icon="ios-cloud-upload-outline">请上传</Button>
+          <Button type="default" icon="ios-cloud-upload-outline">请上传</Button>
         </Upload>
         <span v-if="item.element === 'file'">{{model.filename}} {{model.fileurl}}</span>
       </template>

@@ -24,7 +24,7 @@ export default(Mock, qs) => {
         name: '主页',
         path: '/'
       }, {
-        name: '生日管理',
+        name: '管理',
         path: '/birthManage',
         children: [
           {

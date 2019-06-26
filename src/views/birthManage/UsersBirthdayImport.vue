@@ -15,7 +15,7 @@
         :on-exceeded-size="handleMaxSize"
         :before-upload="handleUpload"
         action="//jsonplaceholder.typicode.com/posts/">
-        <Button type="ghost" icon="ios-cloud-upload-outline">请选择上传文件</Button>
+        <Button type="default" icon="ios-cloud-upload-outline">请选择上传文件</Button>
       </Upload>
       <div v-if="file !== null">上传文件: {{ file.name }} <Button type="primary" @click="upload" :loading="loadingStatus">{{ loadingStatus ? '上传中...' : '上传' }}</Button></div>
       <br/>

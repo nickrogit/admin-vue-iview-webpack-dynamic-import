@@ -27,7 +27,7 @@
         </FormItem>
         <FormItem>
           <Button type="primary" @click="handleSave('remote')">Save</Button>
-          <Button type="ghost" @click="handleReset('remote')" style="margin-left: 8px">R</Button>
+          <Button type="default" @click="handleReset('remote')" style="margin-left: 8px">R</Button>
         </FormItem>
       </Form>
     </div>

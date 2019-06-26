@@ -56,7 +56,7 @@ export default {
           type: 'primary',
           text: 'Submit'
         }, {
-          type: 'ghost',
+          type: 'default',
           text: 'Cancel'
         }]
       }],

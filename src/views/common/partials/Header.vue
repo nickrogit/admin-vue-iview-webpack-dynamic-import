@@ -8,7 +8,7 @@
   <div class="login-info">
     <Dropdown trigger="click" @on-click="handleDropdown">
       <strong class="user">
-        <Avatar style="background-color: #3c3" icon="person" size="small"></Avatar>
+        <Avatar style="background-color: #3c3" icon="ios-person" size="small"></Avatar>
         {{ userName }}
       </strong>
       <DropdownMenu slot="list">
@@ -46,11 +46,11 @@ export default {
       dropdownItems: [{
         label: '修改密码',
         name: 'modifyPwd',
-        icon: 'unlocked'
+        icon: 'md-unlock'
       }, {
         label: '退出登录',
         name: 'signout',
-        icon: 'log-out'
+        icon: 'md-log-out'
       }]
     }
   },

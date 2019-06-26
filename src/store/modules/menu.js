@@ -19,7 +19,7 @@ const getters = {
     name: '主页',
     path: '/'
   }, {
-    name: '用户生日管理',
+    name: '用户管理',
     path: '/birthManage',
     children: [
       {

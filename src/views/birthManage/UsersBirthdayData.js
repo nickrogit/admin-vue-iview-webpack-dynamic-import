@@ -30,7 +30,7 @@ export default {
           text: '搜索'
         }, {
           name: 'reset',
-          type: 'ghost',
+          type: 'default',
           text: '重置'
         }
       ]
@@ -77,7 +77,7 @@ export default {
           type: 'primary',
           text: '提交'
         }, {
-          type: 'ghost',
+          type: 'default',
           text: '返回'
         }
       ]
