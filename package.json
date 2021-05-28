@@ -18,7 +18,7 @@
     "echarts": "^3.8.5",
     "iview": "^3.4.2",
     "mockjs": "^1.0.1-beta3",
-    "tinymce": "^4.7.4",
+    "tinymce": "^5.7.1",
     "vue": "^2.5.9",
     "vue-quill-editor": "^3.0.5",
     "vue-router": "^3.0.1",
